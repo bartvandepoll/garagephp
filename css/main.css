@@ -1,4 +1,39 @@
 body {
   margin: 0; }
 
+.container {
+  margin: 0 auto; }
+  .container h1 {
+    text-align: center;
+    margin: 0; }
+  .container h2 {
+    text-align: center;
+    margin: 0; }
+
+nav li {
+  list-style: none;
+  height: 100%; }
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  font-family: 'Josefin Sans', sans-serif; }
+
+.klant {
+  background-color: red;
+  width: 20%;
+  height: 50vh; }
+
+.auto {
+  background-color: aqua;
+  width: 20%;
+  height: 50vh; }
+
+.home {
+  width: 60%;
+  height: 50vh;
+  background-color: bisque; }
+  .home p {
+    margin: 0; }
+
 /*# sourceMappingURL=main.css.map */
