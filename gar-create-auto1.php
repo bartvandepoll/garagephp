@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>gar-create-auto1.php</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 <h1>garage create auto 1</h1>

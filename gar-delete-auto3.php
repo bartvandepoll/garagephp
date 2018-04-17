@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>gar-delete-auto3</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 <h1>garage delete auto 3</h1>

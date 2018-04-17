@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>gar-update-klant2</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 <h1>garage update klant2</h1>
@@ -30,22 +31,22 @@ foreach ($klanten as $klant) {
 
     echo "klantnaam: <input type='text' ";
     echo "name = 'klantnaamvak' ";
-    echo "value = '" .$klant["klantnaam"]. "' ";
+    echo "value = '" . $klant["klantnaam"] . "' ";
     echo "> <br>";
 
     echo "klantadres: <input type='text' ";
     echo "name = 'klantadresvak' ";
-    echo "value = '" .$klant["klantadres"]. "' ";
+    echo "value = '" . $klant["klantadres"] . "' ";
     echo "> <br>";
 
     echo "klantpostcode: <input type='text' ";
     echo "name = 'klantpostcodevak' ";
-    echo "value = '" .$klant["klantpostcode"]. "' ";
+    echo "value = '" . $klant["klantpostcode"] . "' ";
     echo "> <br>";
 
     echo "klantplaats: <input type='text' ";
     echo "name = 'klantplaatsvak' ";
-    echo "value = '" .$klant["klantplaats"]. "' ";
+    echo "value = '" . $klant["klantplaats"] . "' ";
     echo "> <br>";
 }
 

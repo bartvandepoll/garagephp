@@ -3,12 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>gar-update-klant3</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 <h1>garage update klant3</h1>
 <p>klantgegevens wijzigen in de tabel klant van de database garage</p>
 <?php
 // klant gegevens uit het formulier halen
+
+if(empty($_POST['klantidvak'])){
+    echo "de klant bestaat niet";
+    echo "<a href='menu.html'> terug naar het menu </a>";
+}
+
+else{
 $klantid = $_POST["klantidvak"];
 $klantnaam = $_POST["klantnaamvak"];
 $klantadres = $_POST["klantadresvak"];
@@ -29,7 +37,8 @@ $sql->execute(
         "klantplaats" => $klantplaats
     ]);
 echo "de klant is gewijzigd. <br>";
-echo "<a href='menu.html'> terug naar het menu</a>"
+echo "<a href='menu.html'> terug naar het menu</a>";
+}
 ?>
 </body>
 </html>

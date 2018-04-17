@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>gar-delete-klant1</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 <h1>garage delete klant 1</h1>

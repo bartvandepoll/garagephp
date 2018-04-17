@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>gar-zoek-autoid2</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 <h1>garage zoek op autoid 2</h1>

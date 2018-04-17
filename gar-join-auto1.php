@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>gar-join-auto</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 <h1>garage join auto</h1>
