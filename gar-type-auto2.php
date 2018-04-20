@@ -21,6 +21,14 @@ $sql->execute(["autotype" => $autotype]);
 
 //klant gegevens laten zien
 echo "<table>";
+echo "<thead>";
+echo "<th>autoid</th>";
+echo "<th>type</th>";
+echo "<th>naam</th>";
+echo "<th>adres</th>";
+echo "<th>postcode</th>";
+echo "<th>plaats</th>";
+echo "</thead>";
 foreach ($sql as $rij)
 {
     echo"<tr>";

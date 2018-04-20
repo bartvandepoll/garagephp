@@ -17,6 +17,13 @@ $sql = $conn->prepare("select klantid, klantnaam, klantadres, klantpostcode, kla
 $sql->execute();
 
 echo "<table>";
+echo "<thead>";
+echo "<th>klantid</th>";
+echo "<th>naam</th>";
+echo "<th>adres</th>";
+echo "<th>postcode</th>";
+echo "<th>plaats</th>";
+echo "</thead>";
 foreach ($sql as $rij)
 {
     echo "<tr>";

@@ -22,6 +22,14 @@ $klanten->execute(["klantid" => $klantid]);
 
 //klant gegevens laaten zien in een nieuw formulier
 echo "<table>";
+echo "<table>";
+echo "<thead>";
+echo "<th>klant id</th>";
+echo "<th>naam</th>";
+echo "<th>adres</th>";
+echo "<th>postcode</th>";
+echo "<th>plaats</th>";
+echo "</thead>";
 foreach ($klanten as $klant) {
     echo "<tr>";
     echo "<td>" . $klant["klantid"] . "</td>";

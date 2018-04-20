@@ -12,19 +12,30 @@
 <?php
 require_once "gar-connect.php";
 
-$sql = $conn->prepare("select autoid, autokenteken, automerk, autotype, autokmstand, klantid from auto");
+$sql = $conn->prepare("select autoid, autokenteken, automerk, autotype, autokmstand, image, klantid from auto");
 
 $sql->execute();
 
+
+
 echo "<table>";
-foreach ($sql as $rij)
-{
+echo "<thead>";
+echo "<th>autoid</th>";
+echo "<th>kenteken</th>";
+echo "<th>merk</th>";
+echo "<th>type</th>";
+echo "<th>km stand</th>";
+echo "<th>image</th>";
+echo "<th>klant id</th>";
+echo "</thead>";
+foreach ($sql as $rij) {
     echo "<tr>";
     echo "<td>" . $rij["autoid"] . "</td>";
     echo "<td>" . $rij["autokenteken"] . "</td>";
     echo "<td>" . $rij["automerk"] . "</td>";
     echo "<td>" . $rij["autotype"] . "</td>";
     echo "<td>" . $rij["autokmstand"] . "</td>";
+    echo "<td>" . $rij["image"] . "</td>";
     echo "<td>" . $rij["klantid"] . "</td>";
     echo "</tr>";
 }

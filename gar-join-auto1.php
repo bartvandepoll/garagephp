@@ -17,6 +17,14 @@ $sql = $conn->prepare("SELECT klant.klantnaam, auto.autokenteken, auto.automerk,
 $sql->execute();
 
 echo "<table>";
+echo "<thead>";
+echo "<th>klantnaam</th>";
+echo "<th>kenteken</th>";
+echo "<th>merk</th>";
+echo "<th>type</th>";
+echo "<th>km stand</th>";
+echo "<th>auto id</th>";
+echo "</thead>";
 foreach ($sql as $rij)
 {
     echo "<tr>";

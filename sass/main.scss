@@ -1,6 +1,5 @@
 body{
-  background: rgb(49, 62, 151);
-  background: linear-gradient(90deg, rgb(63, 88, 188) 0%, rgb(49, 62, 151) 49%, rgb(63, 88, 188) 100%);
+  background-color: #344b9c;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
 
@@ -33,14 +32,16 @@ ul {
 }
 
 li:hover{
-  background-color: #96c3ff;
+  background-color: white;
 }
 .wrap{
   display: flex;
   align-items: center;
-  justify-content: center
+  justify-content: center;
+  text-align: center;
 
 }
+
 
 .btn {
   border-radius: 5px;
@@ -53,7 +54,7 @@ li:hover{
 }
 
 .btn:hover {
-  background-color: #96c3ff;
+  background-color:white;
   transition: all 300ms ease-in;
 }
 
@@ -75,7 +76,7 @@ table {
   margin-left: 2%;
   border-spacing: 1px;
   border-collapse: collapse;
-  background: white;
+  background: #8fa2ff;
   border-radius: 10px;
   width: 50%;
 
@@ -85,12 +86,12 @@ table td, table th {
 }
 table thead tr {
   height: 40px;
-  background:#ffff;
+  background: #8fa2ff;
 }
 table tbody tr {
   height: 25px;
 }
 
 tbody tr:nth-child(odd) {
-  background-color: #6b7487;
+  background-color: #96c3ff;
 }

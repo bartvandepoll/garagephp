@@ -22,6 +22,14 @@ $autos->execute(["autoid" => $autoid]);
 
 //klant gegevens laaten zien in een nieuw formulier
 echo "<table>";
+echo "<thead>";
+echo "<th>autoid</th>";
+echo "<th>kenteken</th>";
+echo "<th>merk</th>";
+echo "<th>type</th>";
+echo "<th>km stand</th>";
+echo "<th>klant id</th>";
+echo "</thead>";
 foreach ($autos as $auto) {
     echo "<tr>";
     echo "<td>" . $auto["autoid"] . "</td>";
